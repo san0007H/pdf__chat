@@ -7,7 +7,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_openai import ChatOpenAI
 
 from langchain_groq import ChatGroq
-from langchain_community.embeddings import HuggingFaceInstructEmbeddings
+from langchain.embeddings import HuggingFaceInstructEmbeddings
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from htmlTemplates import css, bot_template, user_template
